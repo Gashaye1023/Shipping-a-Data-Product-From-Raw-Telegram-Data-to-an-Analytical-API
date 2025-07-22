@@ -28,9 +28,7 @@ Using FastAPI, we will expose the transformed data through a well-structured API
 ### 5. Pipeline Orchestration
 To ensure reliability and observability, we will utilize Dagster for orchestrating the entire data pipeline. This will allow us to schedule and monitor the pipeline efficiently, ensuring that data flows smoothly from one stage to the next.
 
-## Learning Outcomes
-
-### Skills Developed
+### steps
 - **Data Extraction:** Utilizing the Telegram API with Telethon.
 - **Data Modeling:** Designing and implementing a star schema.
 - **ELT Pipeline Development:** Building layered data pipelines for efficient data flow.
@@ -40,7 +38,7 @@ To ensure reliability and observability, we will utilize Dagster for orchestrati
 - **API Development:** Creating analytical endpoints with FastAPI.
 - **Pipeline Orchestration:** Managing workflows with Dagster.
 
-### Knowledge Gained
+### 
 - Understanding of ELT vs. ETL architectures.
 - Familiarity with layered data architecture (Data Lake, Staging, Data Marts).
 - Best practices in data cleaning and validation.
