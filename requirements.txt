@@ -1,0 +1,9 @@
+fastapi==0.78.0
+uvicorn==0.18.0
+psycopg2-binary==2.9.3
+dbt==1.0.0
+ultralytics==8.0.0
+telethon==1.24.0
+dagster==0.14.0
+dagster-webserver==0.14.0
+python-dotenv==0.19.2
