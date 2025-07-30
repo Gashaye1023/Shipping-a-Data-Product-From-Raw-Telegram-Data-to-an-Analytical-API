@@ -1,0 +1,10 @@
+python-dotenv==0.19.2
+dagster==1.11.2
+dagster-webserver==1.11.2
+telethon==1.40.0
+dbt-core==1.0.0           
+ultralytics==8.3.169
+fastapi==0.116.1
+uvicorn==0.35.0
+psycopg2-binary==2.9.3
+dbt-postgres==1.0.0
