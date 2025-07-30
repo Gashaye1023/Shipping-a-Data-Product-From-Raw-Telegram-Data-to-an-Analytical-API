@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fastapi==0.78.0
 uvicorn==0.18.0
 psycopg2-binary==2.9.3
@@ -7,3 +8,15 @@ telethon==1.24.0
 dagster==0.14.0
 dagster-webserver==0.14.0
 python-dotenv==0.19.2
+=======
+python-dotenv==0.19.2
+dagster==1.11.2
+dagster-webserver==1.11.2
+telethon==1.40.0
+dbt-core==1.0.0           
+ultralytics==8.3.169
+fastapi==0.116.1
+uvicorn==0.35.0
+psycopg2-binary==2.9.3
+dbt-postgres==1.0.0
+>>>>>>> Build_an_Analytical_API

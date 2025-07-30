@@ -1,24 +1,3 @@
-import psycopg2
-from contextlib import contextmanager
-
-def get_db_connection():
-    conn = psycopg2.connect(
-        host="localhost",
-        port="5432",
-        database="Shipping_dbt", # Ensure this matches your 
-        user="postgres",
-        password="1024" 
-    )
-    return conn
-
-@contextmanager
-def get_db():
-    conn = get_db_connection()
-    try:
-        yield conn
-        conn.commit()
-    except Exception as e:
-        conn.rollback()
-        raise e
-    finally:
-        conn.close()
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4e73f9d720ca8d36db8f3f0508d63b7755cf19df5f4824496c963bd6040d3a6
+size 683
